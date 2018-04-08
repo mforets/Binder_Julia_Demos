@@ -1,0 +1,7 @@
+dependencies:
+  - pip
+  - pip:
+    - julia
+    - "git+https://github.com/JuliaReach/LazySets.jl.git"
+  - julia:
+    - "-e 'Pkg.clone("git://github.com/juliareach/LazySets.jl.git")'"
