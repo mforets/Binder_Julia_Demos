@@ -1,1 +1,2 @@
 julia -e 'Pkg.clone("git://github.com/juliareach/LazySets.jl.git")'
+julia -e 'Pkg.clone("git://github.com/juliareach/Systems.jl.git")'
