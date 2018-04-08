@@ -1,5 +1,5 @@
 dependencies:
+  - gmp 
   - pip
   - pip:
     - julia
-  - gmp 
