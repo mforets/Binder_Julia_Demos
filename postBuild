@@ -1,3 +1,4 @@
+sudo apt-get install libgmp-dev
 julia -e 'Pkg.add("GLPKMathProgInterface"); Pkg.build("GLPKMathProgInterface")'
 julia -e 'Pkg.clone("git://github.com/juliareach/LazySets.jl.git")'
 julia -e 'Pkg.clone("git://github.com/juliareach/Systems.jl.git")'
