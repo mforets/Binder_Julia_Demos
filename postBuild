@@ -1,1 +1,3 @@
 conda install -c anaconda gmp
+julia -e 'Pkg.clone("git://github.com/juliareach/Systems.jl.git")'
+julia -e 'Pkg.clone("git://github.com/juliareach/Systems.jl.git", "binder_no_glpk")'
