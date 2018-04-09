@@ -1,3 +1,1 @@
 conda install -c anaconda gmp
-julia -e 'Pkg.clone("git://github.com/juliareach/Systems.jl.git"); Pkg.build("Systems")'
-julia -e 'Pkg.clone("git://github.com/juliareach/LazySets.jl.git", "binder_no_glpk"); Pkg.build("LazySets")'
